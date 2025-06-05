@@ -12,16 +12,16 @@ public class QuizLogicTest {
 
     private List<Vocab> quiz(List<Vocab> vocabs, int modus, List<String> answers) {
         List<Vocab> falsch = new ArrayList<>();
-        Random random = new Random(0); // für deterministisches Zufall
+        Random random = new Random(0);
 
         for (int i = 0; i < vocabs.size(); i++) {
             Vocab v = vocabs.get(i);
 
             boolean direction;
             if (modus == 1) {
-                direction = true; // Deutsch → Albanisch
+                direction = true;
             } else if (modus == 2) {
-                direction = false; // Albanisch → Deutsch
+                direction = false;
             } else {
                 direction = random.nextBoolean();
             }
@@ -46,7 +46,7 @@ public class QuizLogicTest {
 
     @Test
     public void testOneWrong() {
-        List<String> answers = List.of("shtëpi", "auto"); // zweite Antwort falsch
+        List<String> answers = List.of("shtëpi", "auto");
         List<Vocab> falsch = quiz(sampleVocabs, 1, answers);
         assertEquals(1, falsch.size(), "Eine Antwort sollte falsch sein.");
         assertEquals("auto", falsch.get(0).getDeutsch(), "Falsche Vokabel sollte 'auto' sein.");
