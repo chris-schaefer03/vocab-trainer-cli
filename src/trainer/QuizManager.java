@@ -96,7 +96,7 @@ public class QuizManager {
     }
 
     private void printQuizResult(int richtig, int falsch) {
-        System.out.println("\n📊 Ergebnis des Quiz:");
+        System.out.println("\n📊 Ergebnis:");
         System.out.println("Richtig: " + richtig);
         System.out.println("Falsch: " + falsch);
         if (stats.getTotal() > 0) {

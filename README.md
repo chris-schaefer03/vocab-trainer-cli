@@ -15,8 +15,12 @@ The application features flexible quiz modes, performance tracking, error analys
     - Albanian → German
     - Random direction
     - Error Quiz (retry incorrect answers from past sessions)
-- Add and view your own vocabulary
-- Persistent storage in `vocab_data.json` and `fehlerliste.json` using Gson with LocalDate support
+- Add, search, and view your own vocabulary
+- Persistent storage using JSON:
+  - `vocab_data.json` (vocabulary)
+  - `fehlerliste.json` (mistakes)
+  - `stats.json` (statistics)
+  - `users.json` (user accounts)
 - Tracks performance statistics including:
     - Total correct and incorrect answers
     - Accuracy percentage
@@ -24,6 +28,24 @@ The application features flexible quiz modes, performance tracking, error analys
     - Correct answers tracked per day for progress monitoring
     - View detailed statistics anytime from the menu
 - Smart spaced repetition algorithm for personalized review timing
+- Role-based user system (see below for details)
+
+---
+
+## 🔐 User Management & Login System
+
+The application includes a secure login and user role system:
+
+- Register/login with username and password
+- Passwords are securely hashed with SHA-256
+- Admin users can:
+    - View all registered users
+    - Delete users (except themselves)
+    - Register new users manually
+    - Reset all statistics
+- Role-based access enforcement for admin features
+- Persistent user data stored in `users.json`
+
 ---
 
 ## 🔧 Technologies & Tools
@@ -31,11 +53,12 @@ The application features flexible quiz modes, performance tracking, error analys
 - Java 17
 - IntelliJ IDEA
 - Gson with a custom LocalDateAdapter for JSON serialization/deserialization of LocalDate
+- Secure password handling using MessageDigest and SHA-256
 - JUnit 5 for unit testing
 - Clean, modular object-oriented design
 - Command-line interface using Scanner
 - Persistent file handling with JSON
-- Real-world error handling and user interaction in console
+- Real-world error handling
 - Planned GUI using JavaFX or Web technologies
 
 ---
@@ -59,16 +82,17 @@ It was developed to:
 This project reflects key backend development skills:
 
 - CLI-based application architecture
-- File I/O handling (CSV, JSON, plain text)
+- File I/O handling via JSON
 - Integration of external libraries (Gson) with custom type adapters
 - Implementation of a spaced repetition algorithm
 - Realistic error handling and user interaction
+- Role-based access control with admin and user roles
 
 It also lays the foundation for:
 
 - Collaboration with UX/UI designers
-- Future cloud-readiness (e.g. database, API, frontend)
-
+- Future cloud-readiness (e.g. user accounts, APIs, frontend)
+- Security-relevant features (e.g. audit logging, authentication layers)
 ---
 
 ## 🗂 Project Structure
@@ -84,6 +108,8 @@ project-root/
 │   ├── QuizManager.java
 │   ├── StatsManager.java
 │   ├── UIHelper.java
+│   ├── User.java
+│   ├── UserService.java
 │   ├── Vocab.java
 │   ├── VocabRepository.java
 │   └── VocabService.java
@@ -96,11 +122,15 @@ project-root/
 │   ├── QuizManagerTest.java
 │   ├── StatsManagerTest.java
 │   ├── UIHelperTest.java
+│   ├── UserServiceTest.java
+│   ├── UserTest.java
 │   ├── VocabRepositoryTest.java
 │   ├── VocabServiceTest.java
 │   └── VocabTest.java
-├── vocab_data.json
-└── fehlerliste.json
+├── fehlerliste.json
+├── stats.json
+├── users.json
+└── vocab_data.json
  
 ```
 
@@ -117,7 +147,25 @@ project-root/
 
 4. Run `Main.java`
 
-5. Follow the menu instructions
+5. Follow the menu instructions (register / login required)
+
+---
+
+## 👥 Predefined User Accounts
+
+The application comes with two predefined users for quick testing and demonstration:  
+
+👑 Admin account  
+Username: admin  
+Password: admin123  
+Role: admin
+
+👤 User account  
+Username: chris  
+Password: chris123  
+Role: user
+
+You can use these accounts for testing or create your own via the registration option.
 
 ---
 
@@ -125,15 +173,23 @@ project-root/
 
 Willkommen zum Vokabeltrainer (Deutsch ↔ Albanisch)
 
-Menü:
+🔐 Bitte wählen:
+1. Einloggen
+2. Registrieren  
+   Auswahl: 1  
+Benutzername: admin  
+Passwort: admin123  
+✅ Willkommen, admin (admin)
 
+Menü:  
 1. Vokabel hinzufügen
 2. Vokabeln anzeigen
 3. Vokabeln abfragen
 4. Fehler-Quiz starten
 5. Vokabel suchen
 6. Statistiken anzeigen
-7. Beenden  
+7. Beenden   
+8. Admin-Menü  
    Auswahl: 3
 
 Es sind 35 Vokabeln fällig.  
@@ -160,7 +216,7 @@ Was heißt "stehlen" auf Albanisch? > vjedh
 Was heißt "Baum" auf Albanisch? > exit  
 ⏹️ Quiz abgebrochen. Fortschritt wird gespeichert.
 
-📊 Ergebnis des Quiz:  
+📊 Ergebnis:  
 Richtig: 2  
 Falsch: 1  
 Trefferquote: 66,67 %
@@ -182,13 +238,11 @@ Haus → shtëpi (Nächste Wiederholung: 2025-06-05)
 
 This project includes comprehensive unit tests covering:
 
-- Vocabulary data management (load/save CSV and JSON)
-
+- Vocabulary data management (load/save JSON)
 - Quiz logic correctness and edge cases
-
 - Search functionality (exact, partial, case-insensitive)
-
 - Performance statistics tracking
+- User registration, login and role management
 
 Tests are located in the `tests/` directory and can be run using JUnit 5 in IntelliJ or via command line.
 

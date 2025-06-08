@@ -11,7 +11,7 @@ import java.util.List;
 
 public class VocabRepository {
     private static String filePath = "vocab_data.json";
-    private static String fehlerlistePath = "fehlerliste.json";  // NICHT final
+    private static String fehlerlistePath = "fehlerliste.json";
 
     private static final Gson gson = new GsonBuilder().registerTypeAdapter(LocalDate.class, new LocalDateAdapter()).setPrettyPrinting().create();
 
@@ -70,7 +70,7 @@ public class VocabRepository {
         File fehlerdatei = new File(fehlerlistePath);
         if (!fehlerdatei.exists()) {
             try (FileWriter writer = new FileWriter(fehlerdatei)) {
-                writer.write("[]");  // Leere JSON-Liste
+                writer.write("[]");
                 System.out.println("⚡ Fehlerliste-JSON wurde initial angelegt.");
             } catch (IOException e) {
                 System.out.println("❌ Fehler beim Anlegen der Fehlerliste: " + e.getMessage());

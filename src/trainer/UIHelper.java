@@ -16,6 +16,7 @@ public class UIHelper {
         System.out.println("5. Vokabel suchen");
         System.out.println("6. Statistiken anzeigen");
         System.out.println("7. Beenden");
+        System.out.println("8. Admin-Menü");
         System.out.print("Auswahl: ");
     }
 
