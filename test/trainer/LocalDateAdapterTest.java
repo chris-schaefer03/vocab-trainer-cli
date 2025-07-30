@@ -1,4 +1,4 @@
-package java.trainer;
+package trainer;
 
 import com.google.gson.*;
 import trainer.LocalDateAdapter;

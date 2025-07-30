@@ -1,4 +1,4 @@
-package java.trainer;
+package trainer;
 
 import trainer.AnswerCheckResult;
 import trainer.StatsManager;

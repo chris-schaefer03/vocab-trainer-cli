@@ -1,4 +1,4 @@
-package java.trainer;
+package trainer;
 
 import trainer.StatsManager;
 import org.junit.jupiter.api.BeforeEach;

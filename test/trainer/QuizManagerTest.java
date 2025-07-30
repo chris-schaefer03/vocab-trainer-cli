@@ -1,4 +1,4 @@
-package java.trainer;
+package trainer;
 
 import trainer.QuizManager;
 import trainer.StatsManager;

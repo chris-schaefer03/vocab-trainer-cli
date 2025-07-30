@@ -120,7 +120,7 @@ project-root/
 │       ├── VocabRepository.java
 │       └── VocabService.java
 ├── tests/    
-│ └── java/trainer/   
+│ └── trainer/   
 │   ├── FehlerQuizTest.java
 │   ├── LocalDateAdapterTest.java
 │   ├── MainTest.java 
