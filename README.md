@@ -15,12 +15,14 @@ The application features flexible quiz modes, performance tracking, error analys
     - Albanian → German
     - Random direction
     - Error Quiz (retry incorrect answers from past sessions)
+- Sentence gap-filling exercises by level (A1 - C2)
 - Add, search, and view your own vocabulary
 - Persistent storage using JSON:
-  - `vocab_data.json` (vocabulary)
-  - `fehlerliste.json` (mistakes)
-  - `stats.json` (statistics)
-  - `users.json` (user accounts)
+  - `vocab_data.json` (vocabulary list)
+  - `fehlerliste.json` (incorrectly answered vocab (mistake tracking))
+  - `sentence_gaps.json` (sentence-based gap-fill exercises (grouped by CEFR level))
+  - `stats.json` (user learning statistics)
+  - `users.json` (user accounts and roles)
 - Tracks performance statistics including:
     - Total correct and incorrect answers
     - Accuracy percentage
@@ -101,20 +103,24 @@ It also lays the foundation for:
 project-root/ 
 ├── README.md
 ├── src/
-│ └── trainer/
-│   ├── AnswerCheckResult.java
-│   ├── LocalDateAdapter.java
-│   ├── Main.java
-│   ├── QuizManager.java
-│   ├── StatsManager.java
-│   ├── UIHelper.java
-│   ├── User.java
-│   ├── UserService.java
-│   ├── Vocab.java
-│   ├── VocabRepository.java
-│   └── VocabService.java
+│ └── main/java/
+│   ├── gui/
+│   └── trainer/
+│       ├── AnswerCheckResult.java
+│       ├── LocalDateAdapter.java
+│       ├── Main.java
+│       ├── QuizManager.java
+│       ├── SentenceGap.java
+│       ├── SentenceGapRepository.java
+│       ├── StatsManager.java
+│       ├── UIHelper.java
+│       ├── User.java
+│       ├── UserService.java
+│       ├── Vocab.java
+│       ├── VocabRepository.java
+│       └── VocabService.java
 ├── tests/    
-│ └── trainer/   
+│ └── java/trainer/   
 │   ├── FehlerQuizTest.java
 │   ├── LocalDateAdapterTest.java
 │   ├── MainTest.java 
@@ -127,10 +133,12 @@ project-root/
 │   ├── VocabRepositoryTest.java
 │   ├── VocabServiceTest.java
 │   └── VocabTest.java
-├── fehlerliste.json
-├── stats.json
-├── users.json
-└── vocab_data.json
+├── data/
+│   ├── fehlerliste.json
+│   ├── sentence_gaps.json
+│   ├── stats.json
+│   ├── users.json
+│   └── vocab_data.json
  
 ```
 
@@ -186,10 +194,11 @@ Menü:
 2. Vokabeln anzeigen
 3. Vokabeln abfragen
 4. Fehler-Quiz starten
-5. Vokabel suchen
-6. Statistiken anzeigen
-7. Beenden   
-8. Admin-Menü  
+5. Gap-Fill-Übung
+6. Vokabel suchen
+7. Statistiken anzeigen
+8. Beenden   
+9. Admin-Menü  
    Auswahl: 3
 
 Es sind 35 Vokabeln fällig.  
@@ -230,7 +239,7 @@ Haus → shtëpi (Nächste Wiederholung: 2025-06-05)
 
 - Development of a graphical user interface (JavaFX or Web)
 - Responsive UI design in collaboration with a UX/UI designer
-- Import/export support for custom vocabulary sets
+- AI-powered grammar explanations (ChatGPT integration that explains grammar, structure, and usage of each sentence)
 
 ---
 

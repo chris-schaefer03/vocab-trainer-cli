@@ -80,7 +80,7 @@ public class QuizManager {
         return direction;
     }
 
-    boolean selectDirection(Scanner scanner) {
+    public boolean selectDirection(Scanner scanner) {
         while (true) {
             System.out.println("In welche Richtung möchtest du das Quiz machen?");
             System.out.println("1. Deutsch → Albanisch");

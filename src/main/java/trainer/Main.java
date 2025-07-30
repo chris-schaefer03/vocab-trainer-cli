@@ -1,6 +1,8 @@
 package trainer;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -60,15 +62,16 @@ public class Main {
                 case "2" -> listVocabs(vocabService);
                 case "3" -> quizManager.startRegularQuiz(scanner);
                 case "4" -> quizManager.startErrorQuiz(scanner);
-                case "5" -> searchVocabs(scanner, vocabService);
-                case "6" -> showStats(stats);
-                case "7" -> {
+                case "5" -> gapFillExercise(scanner);
+                case "6" -> searchVocabs(scanner, vocabService);
+                case "7" -> showStats(stats);
+                case "8" -> {
                     vocabService.saveVocabs();
                     stats.save();
                     System.out.println("📦 Vokabeln und Statistiken gespeichert. Programm beendet.");
                     running = false;
                 }
-                case "8" -> {
+                case "9" -> {
                     if (currentUser != null && currentUser.isAdmin()) {
                         showAdminMenu(scanner);
                     } else {
@@ -184,6 +187,49 @@ public class Main {
                 case "0" -> inAdminMenu = false;
                 default -> System.out.println("❗ Ungültige Eingabe.");
             }
+        }
+    }
+
+    private static void gapFillExercise(Scanner scanner) {
+        Map<String, List<SentenceGap>> allGaps = SentenceGapRepository.loadAll(); // Clean-Code-Version
+        if (allGaps.isEmpty()) {
+            System.out.println("⚠️ Keine Satzübungen verfügbar.");
+            return;
+        }
+
+        System.out.println("📘 Wähle ein Niveau (A1, A2, B1, B2, C1, C2):");
+        String level = scanner.nextLine().trim().toUpperCase();
+
+        List<SentenceGap> exercises = allGaps.get(level);
+        if (exercises == null || exercises.isEmpty()) {
+            System.out.println("❌ Keine Übungen für dieses Niveau gefunden.");
+            return;
+        }
+
+        // Zufällige Übung auswählen
+        SentenceGap exercise = exercises.get(new Random().nextInt(exercises.size()));
+
+        // Aufgabe anzeigen
+        System.out.println("\n📝 Fülle die Lücke im Satz:");
+        System.out.println(exercise.getSentenceWithGap());
+        System.out.println("(Deutsch: " + exercise.getGermanTranslation() + ")");
+        System.out.print("Deine Antwort: ");
+        String input = scanner.nextLine().trim();
+
+        // Antwort vergleichen
+        String expected = UIHelper.normalizeAnswerWithSmartSubstitution(exercise.getCorrectAnswer());
+        String given = UIHelper.normalizeAnswerWithSmartSubstitution(input);
+        String correctRaw = exercise.getCorrectAnswer();
+
+        if (given.equals(expected)) {
+            if (input.equalsIgnoreCase(correctRaw)) {
+                System.out.println("✅ Richtig!");
+            } else {
+                System.out.println("✅ Richtig (mit erlaubter Ersetzung).");
+                System.out.println("🔤 Korrekte Schreibweise: " + correctRaw);
+            }
+        } else {
+            System.out.println("❌ Falsch! Richtig wäre: " + correctRaw);
         }
     }
 }

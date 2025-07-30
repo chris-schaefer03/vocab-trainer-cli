@@ -1,0 +1,614 @@
+{
+  "A1": [
+    {
+      "sentenceWithGap": "Unë ___ në shkollë çdo ditë.",
+      "correctAnswer": "shkoj",
+      "germanTranslation": "Ich gehe jeden Tag zur Schule."
+    },
+    {
+      "sentenceWithGap": "Ai ka një ___ të bardhë.",
+      "correctAnswer": "makinë",
+      "germanTranslation": "Er hat ein weißes Auto."
+    },
+    {
+      "sentenceWithGap": "Sot është shumë ___.",
+      "correctAnswer": "nxehtë",
+      "germanTranslation": "Heute ist es sehr heiß."
+    },
+    {
+      "sentenceWithGap": "Ajo ___ bukë në mëngjes.",
+      "correctAnswer": "ha",
+      "germanTranslation": "Sie isst morgens Brot."
+    },
+    {
+      "sentenceWithGap": "Ne ___ librat në tavolinë.",
+      "correctAnswer": "vendosim",
+      "germanTranslation": "Wir legen die Bücher auf den Tisch."
+    },
+    {
+      "sentenceWithGap": "Ata jetojnë në një ___ të vogël.",
+      "correctAnswer": "shtëpi",
+      "germanTranslation": "Sie wohnen in einem kleinen Haus."
+    },
+    {
+      "sentenceWithGap": "Sa ___ je ti?",
+      "correctAnswer": "vjeç",
+      "germanTranslation": "Wie alt bist du?"
+    },
+    {
+      "sentenceWithGap": "Kjo është motra ___.",
+      "correctAnswer": "ime",
+      "germanTranslation": "Das ist meine Schwester."
+    },
+    {
+      "sentenceWithGap": "Mësuesja na dha një ___ të vështirë.",
+      "correctAnswer": "detyrë",
+      "germanTranslation": "Die Lehrerin gab uns eine schwierige Aufgabe."
+    },
+    {
+      "sentenceWithGap": "Fëmijët ___ në park çdo pasdite.",
+      "correctAnswer": "luajnë",
+      "germanTranslation": "Die Kinder spielen jeden Nachmittag im Park."
+    },
+    {
+      "sentenceWithGap": "Unë kam ___ vëllezër.",
+      "correctAnswer": "dy",
+      "germanTranslation": "Ich habe zwei Brüder."
+    },
+    {
+      "sentenceWithGap": "___ është ora?",
+      "correctAnswer": "Sa",
+      "germanTranslation": "Wie spät ist es?"
+    },
+    {
+      "sentenceWithGap": "Gjyshja gatuan shumë ___.",
+      "correctAnswer": "mirë",
+      "germanTranslation": "Die Großmutter kocht sehr gut."
+    },
+    {
+      "sentenceWithGap": "Libri është mbi ___.",
+      "correctAnswer": "tavolinë",
+      "germanTranslation": "Das Buch ist auf dem Tisch."
+    },
+    {
+      "sentenceWithGap": "Ai është më i ___ se unë.",
+      "correctAnswer": "gjatë",
+      "germanTranslation": "Er ist größer als ich."
+    },
+    {
+      "sentenceWithGap": "Nëna ime ___ një kek çdo të diel.",
+      "correctAnswer": "gatuan",
+      "germanTranslation": "Meine Mutter backt jeden Sonntag einen Kuchen."
+    },
+    {
+      "sentenceWithGap": "Këtu ka shumë ___ të bukura.",
+      "correctAnswer": "lule",
+      "germanTranslation": "Hier gibt es viele schöne Blumen."
+    },
+    {
+      "sentenceWithGap": "Unë dua të ___ me biçikletë.",
+      "correctAnswer": "shkoj",
+      "germanTranslation": "Ich möchte mit dem Fahrrad fahren."
+    },
+    {
+      "sentenceWithGap": "Fëmija është shumë ___.",
+      "correctAnswer": "i lumtur",
+      "germanTranslation": "Das Kind ist sehr glücklich."
+    },
+    {
+      "sentenceWithGap": "Unë dua një gotë me ___.",
+      "correctAnswer": "ujë",
+      "germanTranslation": "Ich möchte ein Glas Wasser."
+    }
+  ],
+  "A2": [
+    {
+      "sentenceWithGap": "Nëna ime ___ një kek çdo të diel.",
+      "correctAnswer": "gatuan",
+      "germanTranslation": "Meine Mutter backt jeden Sonntag einen Kuchen."
+    },
+    {
+      "sentenceWithGap": "Këtu ka shumë ___ të bukura.",
+      "correctAnswer": "lule",
+      "germanTranslation": "Hier gibt es viele schöne Blumen."
+    },
+    {
+      "sentenceWithGap": "Unë dua të ___ me biçikletë.",
+      "correctAnswer": "shkoj",
+      "germanTranslation": "Ich möchte mit dem Fahrrad fahren."
+    },
+    {
+      "sentenceWithGap": "Kafsha ime e preferuar është ___.",
+      "correctAnswer": "qeni",
+      "germanTranslation": "Mein Lieblingstier ist der Hund."
+    },
+    {
+      "sentenceWithGap": "Motrat e mia janë shumë ___.",
+      "correctAnswer": "të sjellshme",
+      "germanTranslation": "Meine Schwestern sind sehr höflich."
+    },
+    {
+      "sentenceWithGap": "Në dhomë ka një ___ të madhe.",
+      "correctAnswer": "dritare",
+      "germanTranslation": "Im Zimmer gibt es ein großes Fenster."
+    },
+    {
+      "sentenceWithGap": "Ai ___ një këngë në radio.",
+      "correctAnswer": "dëgjon",
+      "germanTranslation": "Er hört ein Lied im Radio."
+    },
+    {
+      "sentenceWithGap": "Unë jetoj në një ___ të qetë.",
+      "correctAnswer": "lagje",
+      "germanTranslation": "Ich wohne in einer ruhigen Nachbarschaft."
+    },
+    {
+      "sentenceWithGap": "Tani është ora ___.",
+      "correctAnswer": "dhjetë",
+      "germanTranslation": "Es ist jetzt zehn Uhr."
+    },
+    {
+      "sentenceWithGap": "Sot është dita e ___.",
+      "correctAnswer": "hënë",
+      "germanTranslation": "Heute ist Montag."
+    },
+    {
+      "sentenceWithGap": "Ata kanë një ___ të vogël.",
+      "correctAnswer": "kafshë",
+      "germanTranslation": "Sie haben ein kleines Haustier."
+    },
+    {
+      "sentenceWithGap": "Ne pimë ___ në mëngjes.",
+      "correctAnswer": "çaj",
+      "germanTranslation": "Wir trinken Tee am Morgen."
+    },
+    {
+      "sentenceWithGap": "Ky është një libër shumë ___.",
+      "correctAnswer": "interesant",
+      "germanTranslation": "Das ist ein sehr interessantes Buch."
+    },
+    {
+      "sentenceWithGap": "Shkolla fillon në muajin ___.",
+      "correctAnswer": "shtator",
+      "germanTranslation": "Die Schule beginnt im September."
+    },
+    {
+      "sentenceWithGap": "Unë bleva një ___ të re dje.",
+      "correctAnswer": "çantë",
+      "germanTranslation": "Ich habe gestern eine neue Tasche gekauft."
+    },
+    {
+      "sentenceWithGap": "Ai ka flokë të ___ dhe sy të kaltër.",
+      "correctAnswer": "zinj",
+      "germanTranslation": "Er hat schwarze Haare und blaue Augen."
+    },
+    {
+      "sentenceWithGap": "Ajo shikon një film me ___.",
+      "correctAnswer": "familjen",
+      "germanTranslation": "Sie schaut einen Film mit der Familie."
+    },
+    {
+      "sentenceWithGap": "Shtëpia jonë ka katër ___.",
+      "correctAnswer": "dritare",
+      "germanTranslation": "Unser Haus hat vier Fenster."
+    },
+    {
+      "sentenceWithGap": "Motra ime ___ muzikë çdo mbrëmje.",
+      "correctAnswer": "dëgjon",
+      "germanTranslation": "Meine Schwester hört jeden Abend Musik."
+    },
+    {
+      "sentenceWithGap": "Në verë ata zakonisht ___ pushimet jashtë vendit.",
+      "correctAnswer": "kalojnë",
+      "germanTranslation": "Im Sommer verbringen sie den Urlaub gewöhnlich im Ausland."
+    }
+  ],
+  "B1": [
+    {
+      "sentenceWithGap": "Ajo është duke ___ një libër interesant.",
+      "correctAnswer": "lexuar",
+      "germanTranslation": "Sie liest gerade ein interessantes Buch."
+    },
+    {
+      "sentenceWithGap": "Nëse ke kohë, mund të ___ me mua.",
+      "correctAnswer": "vish",
+      "germanTranslation": "Wenn du Zeit hast, kannst du mit mir kommen."
+    },
+    {
+      "sentenceWithGap": "Ai u ___ sepse humbi autobusin.",
+      "correctAnswer": "vonua",
+      "germanTranslation": "Er verspätete sich, weil er den Bus verpasst hat."
+    },
+    {
+      "sentenceWithGap": "Ata janë duke ___ për provimin e nesërm.",
+      "correctAnswer": "studiuar",
+      "germanTranslation": "Sie lernen gerade für die morgige Prüfung."
+    },
+    {
+      "sentenceWithGap": "Ne kemi vendosur të ___ pushimet në mal.",
+      "correctAnswer": "kalojmë",
+      "germanTranslation": "Wir haben beschlossen, den Urlaub in den Bergen zu verbringen."
+    },
+    {
+      "sentenceWithGap": "Unë nuk e ___ mirë atë situatë.",
+      "correctAnswer": "kuptova",
+      "germanTranslation": "Ich habe die Situation nicht gut verstanden."
+    },
+    {
+      "sentenceWithGap": "Pse nuk ___ më parë për këtë problem?",
+      "correctAnswer": "folët",
+      "germanTranslation": "Warum habt ihr nicht früher über dieses Problem gesprochen?"
+    },
+    {
+      "sentenceWithGap": "Ata janë më të ___ se mendoja.",
+      "correctAnswer": "sjellshëm",
+      "germanTranslation": "Sie sind höflicher, als ich dachte."
+    },
+    {
+      "sentenceWithGap": "Është e rëndësishme të ___ çdo ditë.",
+      "correctAnswer": "ushtrihesh",
+      "germanTranslation": "Es ist wichtig, sich jeden Tag zu bewegen (Sport zu treiben)."
+    },
+    {
+      "sentenceWithGap": "Në fillim ajo nuk donte të ___, por më pas ndryshoi mendje.",
+      "correctAnswer": "pranonte",
+      "germanTranslation": "Zuerst wollte sie nicht zustimmen, aber später änderte sie ihre Meinung."
+    },
+    {
+      "sentenceWithGap": "A ke vendosur të ___ pjesë në konkurs?",
+      "correctAnswer": "marrësh",
+      "germanTranslation": "Hast du beschlossen, am Wettbewerb teilzunehmen?"
+    },
+    {
+      "sentenceWithGap": "Ai ___ shumë mirë me kolegët.",
+      "correctAnswer": "shkon",
+      "germanTranslation": "Er versteht sich gut mit den Kollegen."
+    },
+    {
+      "sentenceWithGap": "Nuk dua të ___ vonë në takim.",
+      "correctAnswer": "shkoj",
+      "germanTranslation": "Ich möchte nicht zu spät zum Treffen kommen."
+    },
+    {
+      "sentenceWithGap": "Kur ishim në plazh, ne ___ shumë foto.",
+      "correctAnswer": "bëmë",
+      "germanTranslation": "Als wir am Strand waren, machten wir viele Fotos."
+    },
+    {
+      "sentenceWithGap": "Ai më kërkoi ndihmë, por unë nuk ___ në gjendje ta ndihmoja.",
+      "correctAnswer": "isha",
+      "germanTranslation": "Er bat mich um Hilfe, aber ich war nicht in der Lage, ihm zu helfen."
+    },
+    {
+      "sentenceWithGap": "Mbrëmë unë ___ një film interesant në televizor.",
+      "correctAnswer": "pashë",
+      "germanTranslation": "Gestern Abend habe ich einen interessanten Film im Fernsehen gesehen."
+    },
+    {
+      "sentenceWithGap": "Ne do të ___ në Itali këtë verë.",
+      "correctAnswer": "udhëtojmë",
+      "germanTranslation": "Wir werden diesen Sommer nach Italien reisen."
+    },
+    {
+      "sentenceWithGap": "Në punë duhet të ___ me klientët çdo ditë.",
+      "correctAnswer": "komunikoj",
+      "germanTranslation": "Bei der Arbeit muss ich jeden Tag mit Kunden kommunizieren."
+    },
+    {
+      "sentenceWithGap": "Fëmijët duhet të ___ rregullat e shkollës.",
+      "correctAnswer": "respektojnë",
+      "germanTranslation": "Die Kinder müssen die Schulregeln respektieren."
+    },
+    {
+      "sentenceWithGap": "Këtë javë unë dua të ___ më shumë sport.",
+      "correctAnswer": "bëj",
+      "germanTranslation": "Diese Woche möchte ich mehr Sport machen."
+    }
+  ],
+  "B2": [
+    {
+      "sentenceWithGap": "Pas shumë përpjekjesh, ajo më në fund e ___ provimin.",
+      "correctAnswer": "kaloi",
+      "germanTranslation": "Nach vielen Versuchen hat sie die Prüfung schließlich bestanden."
+    },
+    {
+      "sentenceWithGap": "Ai u përpoq të ___ gabimin e tij.",
+      "correctAnswer": "rregullonte",
+      "germanTranslation": "Er versuchte, seinen Fehler zu korrigieren."
+    },
+    {
+      "sentenceWithGap": "Nëse do të kisha më shumë kohë, do të ___ me ty.",
+      "correctAnswer": "shkoja",
+      "germanTranslation": "Wenn ich mehr Zeit hätte, würde ich mit dir gehen."
+    },
+    {
+      "sentenceWithGap": "Nuk ishte e lehtë të ___ këtë vendim.",
+      "correctAnswer": "merrje",
+      "germanTranslation": "Es war nicht einfach, diese Entscheidung zu treffen."
+    },
+    {
+      "sentenceWithGap": "Ajo kishte planifikuar të ___ një udhëtim në Francë.",
+      "correctAnswer": "bënte",
+      "germanTranslation": "Sie hatte geplant, eine Reise nach Frankreich zu machen."
+    },
+    {
+      "sentenceWithGap": "Të gjithë studentët duhet të ___ projektin deri të premten.",
+      "correctAnswer": "dorëzojnë",
+      "germanTranslation": "Alle Studierenden müssen das Projekt bis Freitag abgeben."
+    },
+    {
+      "sentenceWithGap": "Ndërsa prisnim trenin, ne ___ për udhëtimin.",
+      "correctAnswer": "biseduam",
+      "germanTranslation": "Während wir auf den Zug warteten, unterhielten wir uns über die Reise."
+    },
+    {
+      "sentenceWithGap": "Profesori kërkoi që të gjithë të ___ të qetë.",
+      "correctAnswer": "rrinin",
+      "germanTranslation": "Der Professor bat darum, dass alle ruhig bleiben."
+    },
+    {
+      "sentenceWithGap": "Nëse nuk ___ me kujdes, do të bësh gabime.",
+      "correctAnswer": "punon",
+      "germanTranslation": "Wenn du nicht sorgfältig arbeitest, wirst du Fehler machen."
+    },
+    {
+      "sentenceWithGap": "Ata kanë nevojë për dikë që ___ anglisht rrjedhshëm.",
+      "correctAnswer": "flet",
+      "germanTranslation": "Sie brauchen jemanden, der fließend Englisch spricht."
+    },
+    {
+      "sentenceWithGap": "Libri që më ___ më shumë është ai për historinë shqiptare.",
+      "correctAnswer": "pëlqeu",
+      "germanTranslation": "Das Buch, das mir am meisten gefiel, ist jenes über die albanische Geschichte."
+    },
+    {
+      "sentenceWithGap": "Në fillim mendova se ishte e vështirë, por më vonë e ___.",
+      "correctAnswer": "kuptova",
+      "germanTranslation": "Zuerst dachte ich, es sei schwer, aber später habe ich es verstanden."
+    },
+    {
+      "sentenceWithGap": "Është e rëndësishme të ___ përgjegjësi për veprimet tona.",
+      "correctAnswer": "marrim",
+      "germanTranslation": "Es ist wichtig, Verantwortung für unsere Handlungen zu übernehmen."
+    },
+    {
+      "sentenceWithGap": "Nëse do të kishte dëgjuar këshillën time, nuk do të ___.",
+      "correctAnswer": "gabonte",
+      "germanTranslation": "Wenn er auf meinen Rat gehört hätte, hätte er keinen Fehler gemacht."
+    },
+    {
+      "sentenceWithGap": "Ai është një person që gjithmonë ___ në kohë.",
+      "correctAnswer": "arrin",
+      "germanTranslation": "Er ist eine Person, die immer pünktlich ankommt."
+    },
+    {
+      "sentenceWithGap": "Gjatë prezantimit, ajo ___ shumë e sigurt.",
+      "correctAnswer": "dukej",
+      "germanTranslation": "Während der Präsentation wirkte sie sehr selbstsicher."
+    },
+    {
+      "sentenceWithGap": "Nëse do të mundesha, do të ___ më shumë libra.",
+      "correctAnswer": "lexoja",
+      "germanTranslation": "Wenn ich könnte, würde ich mehr Bücher lesen."
+    },
+    {
+      "sentenceWithGap": "Për të përfunduar projektin, ne duhet të ___ më shumë kohë.",
+      "correctAnswer": "gjejmë",
+      "germanTranslation": "Um das Projekt abzuschließen, müssen wir mehr Zeit finden."
+    },
+    {
+      "sentenceWithGap": "Disa njerëz besojnë se teknologjia ___ jetën më të lehtë.",
+      "correctAnswer": "bën",
+      "germanTranslation": "Einige Leute glauben, dass Technologie das Leben einfacher macht."
+    },
+    {
+      "sentenceWithGap": "Ai nuk është aq i përgatitur sa ___ të ishte.",
+      "correctAnswer": "duhej",
+      "germanTranslation": "Er ist nicht so vorbereitet, wie er sein sollte."
+    }
+  ],
+  "C1": [
+    {
+      "sentenceWithGap": "Sikur të ___ më herët, do të kishim shmangur problemin.",
+      "correctAnswer": "kishim ardhur",
+      "germanTranslation": "Wenn wir früher gekommen wären, hätten wir das Problem vermieden."
+    },
+    {
+      "sentenceWithGap": "Nëse do të isha në vendin tënd, nuk do të ___ asnjë hap pa menduar.",
+      "correctAnswer": "bëja",
+      "germanTranslation": "Wenn ich an deiner Stelle wäre, würde ich keinen Schritt ohne Nachdenken tun."
+    },
+    {
+      "sentenceWithGap": "Ligji i ri ka sjellë ___ të shumta në administratë.",
+      "correctAnswer": "ndryshime",
+      "germanTranslation": "Das neue Gesetz hat viele Veränderungen in der Verwaltung mit sich gebracht."
+    },
+    {
+      "sentenceWithGap": "Përkundër vështirësive, ata ___ të përmbushin detyrën.",
+      "correctAnswer": "arritën",
+      "germanTranslation": "Trotz der Schwierigkeiten gelang es ihnen, die Aufgabe zu erfüllen."
+    },
+    {
+      "sentenceWithGap": "Në rast se marrëveshja nuk ___, pasojat do të jenë të mëdha.",
+      "correctAnswer": "arrihet",
+      "germanTranslation": "Falls die Vereinbarung nicht erreicht wird, werden die Folgen gravierend sein."
+    },
+    {
+      "sentenceWithGap": "Të punosh nën presion kërkon shumë ___ dhe vetëkontroll.",
+      "correctAnswer": "durim",
+      "germanTranslation": "Unter Druck zu arbeiten erfordert viel Geduld und Selbstkontrolle."
+    },
+    {
+      "sentenceWithGap": "Udhëheqësi kërkoi që të gjitha palët të ___ bashkëpunimin.",
+      "correctAnswer": "forconin",
+      "germanTranslation": "Der Anführer forderte alle Parteien auf, die Zusammenarbeit zu stärken."
+    },
+    {
+      "sentenceWithGap": "Në këtë konferencë do të ___ çështje shumë të rëndësishme.",
+      "correctAnswer": "trajtohen",
+      "germanTranslation": "Auf dieser Konferenz werden sehr wichtige Themen behandelt."
+    },
+    {
+      "sentenceWithGap": "Do të ishte më mirë nëse ai ___ para se të vendoste.",
+      "correctAnswer": "konsultohej",
+      "germanTranslation": "Es wäre besser gewesen, wenn er sich beraten hätte, bevor er entschied."
+    },
+    {
+      "sentenceWithGap": "Këto të dhëna duhet të ___ me kujdes përpara publikimit.",
+      "correctAnswer": "verifikohen",
+      "germanTranslation": "Diese Daten müssen sorgfältig überprüft werden, bevor sie veröffentlicht werden."
+    },
+    {
+      "sentenceWithGap": "Të kuptuarit e thellë i një teme kërkon më shumë sesa thjesht ___.",
+      "correctAnswer": "lexim",
+      "germanTranslation": "Ein tiefes Verständnis eines Themas erfordert mehr als nur Lesen."
+    },
+    {
+      "sentenceWithGap": "Ai u përpoq të ___ përgjegjësinë te dikush tjetër.",
+      "correctAnswer": "kalonte",
+      "germanTranslation": "Er versuchte, die Verantwortung auf jemand anderen zu schieben."
+    },
+    {
+      "sentenceWithGap": "Çdo ndryshim në sistem duhet të ___ në mënyrë të kujdesshme.",
+      "correctAnswer": "zbatohet",
+      "germanTranslation": "Jede Veränderung im System muss sorgfältig umgesetzt werden."
+    },
+    {
+      "sentenceWithGap": "Nëse projekti do të ishte ___ mirë, rezultatet do të ishin më të mira.",
+      "correctAnswer": "menaxhuar",
+      "germanTranslation": "Wenn das Projekt besser gemanagt worden wäre, wären die Ergebnisse besser gewesen."
+    },
+    {
+      "sentenceWithGap": "Studimi konkludon se përmirësimet mund të ___ me reforma të thella.",
+      "correctAnswer": "arrihen",
+      "germanTranslation": "Die Studie kommt zu dem Schluss, dass Verbesserungen durch tiefgreifende Reformen erreicht werden können."
+    },
+    {
+      "sentenceWithGap": "Në rastin më të mirë, ata do të ___ një marrëveshje të përbashkët.",
+      "correctAnswer": "arrijnë",
+      "germanTranslation": "Im besten Fall werden sie eine gemeinsame Vereinbarung erzielen."
+    },
+    {
+      "sentenceWithGap": "Kjo çështje duhet të ___ me prioritet.",
+      "correctAnswer": "trajtohet",
+      "germanTranslation": "Diese Angelegenheit muss vorrangig behandelt werden."
+    },
+    {
+      "sentenceWithGap": "Nëse nuk ___ burime të mjaftueshme, përpjekja do të dështojë.",
+      "correctAnswer": "sigurohen",
+      "germanTranslation": "Wenn keine ausreichenden Ressourcen bereitgestellt werden, wird der Versuch scheitern."
+    },
+    {
+      "sentenceWithGap": "Shkencëtarët kërkojnë që rezultatet të ___ në mënyrë transparente.",
+      "correctAnswer": "publikohen",
+      "germanTranslation": "Die Wissenschaftler fordern, dass die Ergebnisse transparent veröffentlicht werden."
+    },
+    {
+      "sentenceWithGap": "Suksesi në këtë fushë kërkon përkushtim të madh dhe ___ të vazhdueshme.",
+      "correctAnswer": "përmirësim",
+      "germanTranslation": "Erfolg in diesem Bereich erfordert großes Engagement und kontinuierliche Verbesserung."
+    }
+  ],
+  "C2": [
+    {
+      "sentenceWithGap": "Ajo foli me një ton që ___ vendosmëri dhe qetësi.",
+      "correctAnswer": "shprehte",
+      "germanTranslation": "Sie sprach mit einem Ton, der Entschlossenheit und Ruhe ausdrückte."
+    },
+    {
+      "sentenceWithGap": "Suksesi i projektit varej nga ___ e të gjitha palëve.",
+      "correctAnswer": "bashkëpunimi",
+      "germanTranslation": "Der Erfolg des Projekts hing von der Zusammenarbeit aller Beteiligten ab."
+    },
+    {
+      "sentenceWithGap": "Ai pretendon se është viktimë e një ___ të padrejtë.",
+      "correctAnswer": "trajtime",
+      "germanTranslation": "Er behauptet, Opfer einer ungerechten Behandlung zu sein."
+    },
+    {
+      "sentenceWithGap": "Vendimi i gjykatës u konsiderua si një ___ në drejtësi.",
+      "correctAnswer": "përparim",
+      "germanTranslation": "Die Entscheidung des Gerichts wurde als ein Fortschritt in der Justiz angesehen."
+    },
+    {
+      "sentenceWithGap": "Fjalimi i tij ishte i mbushur me ___ të thella filozofike.",
+      "correctAnswer": "ide",
+      "germanTranslation": "Seine Rede war voller tiefgründiger philosophischer Ideen."
+    },
+    {
+      "sentenceWithGap": "Diskutimi u zhvillua në një nivel shumë të ___.",
+      "correctAnswer": "lartë",
+      "germanTranslation": "Die Diskussion fand auf einem sehr hohen Niveau statt."
+    },
+    {
+      "sentenceWithGap": "Kërkimi shkencor nuk duhet të ndikohet nga ___ politike.",
+      "correctAnswer": "agjenda",
+      "germanTranslation": "Wissenschaftliche Forschung sollte nicht von politischen Agenden beeinflusst werden."
+    },
+    {
+      "sentenceWithGap": "Çdo interpretim tjetër do të ishte ___ i realitetit.",
+      "correctAnswer": "shtrembërim",
+      "germanTranslation": "Jede andere Interpretation wäre eine Verzerrung der Realität."
+    },
+    {
+      "sentenceWithGap": "Ai është një autor që arrin të ___ ndjenja komplekse me thjeshtësi.",
+      "correctAnswer": "shprehë",
+      "germanTranslation": "Er ist ein Autor, der komplexe Gefühle mit Einfachheit auszudrücken vermag."
+    },
+    {
+      "sentenceWithGap": "Drejtësia kërkon që të gjithë qytetarët të ___ në mënyrë të barabartë.",
+      "correctAnswer": "trajtohen",
+      "germanTranslation": "Gerechtigkeit verlangt, dass alle Bürger gleich behandelt werden."
+    },
+    {
+      "sentenceWithGap": "Argumenti i tij ishte logjik, por i ___ nga faktet.",
+      "correctAnswer": "shkëputur",
+      "germanTranslation": "Sein Argument war logisch, aber von den Fakten losgelöst."
+    },
+    {
+      "sentenceWithGap": "Ajo është në gjendje të analizojë ___ të ndërlikuara shoqërore.",
+      "correctAnswer": "fenomene",
+      "germanTranslation": "Sie ist in der Lage, komplexe gesellschaftliche Phänomene zu analysieren."
+    },
+    {
+      "sentenceWithGap": "Për të kuptuar plotësisht tekstin, nevojitet një ___ e thellë kulturore.",
+      "correctAnswer": "njohuri",
+      "germanTranslation": "Um den Text vollständig zu verstehen, ist ein tiefes kulturelles Wissen nötig."
+    },
+    {
+      "sentenceWithGap": "Analiza ishte shumë e saktë dhe e ___.",
+      "correctAnswer": "mirëargumentuar",
+      "germanTranslation": "Die Analyse war sehr präzise und gut begründet."
+    },
+    {
+      "sentenceWithGap": "Paragrafi i fundit ___ qëllimin kryesor të autorit.",
+      "correctAnswer": "përmbledh",
+      "germanTranslation": "Der letzte Absatz fasst das Hauptziel des Autors zusammen."
+    },
+    {
+      "sentenceWithGap": "Kjo teori është subjekt i ___ të gjera akademike.",
+      "correctAnswer": "debatit",
+      "germanTranslation": "Diese Theorie ist Gegenstand umfangreicher akademischer Debatten."
+    },
+    {
+      "sentenceWithGap": "Ai shprehu mendimet e tij me një ___ të rrallë.",
+      "correctAnswer": "qartësi",
+      "germanTranslation": "Er äußerte seine Gedanken mit einer seltenen Klarheit."
+    },
+    {
+      "sentenceWithGap": "Letërsia e saj reflekton një ___ të thellë për natyrën njerëzore.",
+      "correctAnswer": "kuptim",
+      "germanTranslation": "Ihre Literatur spiegelt ein tiefes Verständnis für die menschliche Natur wider."
+    },
+    {
+      "sentenceWithGap": "Ky artikull kërkon një nivel të lartë të ___ gjuhësore.",
+      "correctAnswer": "kompetencës",
+      "germanTranslation": "Dieser Artikel erfordert ein hohes Maß an sprachlicher Kompetenz."
+    },
+    {
+      "sentenceWithGap": "Në kontekstin e analizës kritike, çdo detaj duhet të ___ me vëmendje.",
+      "correctAnswer": "shqyrtohet",
+      "germanTranslation": "Im Kontext der kritischen Analyse muss jedes Detail sorgfältig geprüft werden."
+    }
+  ]
+}

@@ -13,10 +13,11 @@ public class UIHelper {
         System.out.println("2. Vokabeln anzeigen");
         System.out.println("3. Vokabeln abfragen");
         System.out.println("4. Fehler-Quiz starten");
-        System.out.println("5. Vokabel suchen");
-        System.out.println("6. Statistiken anzeigen");
-        System.out.println("7. Beenden");
-        System.out.println("8. Admin-Menü");
+        System.out.println("5. Gap-Fill-Übung");
+        System.out.println("6. Vokabel suchen");
+        System.out.println("7. Statistiken anzeigen");
+        System.out.println("8. Beenden");
+        System.out.println("9. Admin-Menü");
         System.out.print("Auswahl: ");
     }
 
@@ -104,5 +105,16 @@ public class UIHelper {
     public static String removeAccents(String s) {
         if (s == null) return "";
         return java.text.Normalizer.normalize(s, java.text.Normalizer.Form.NFD).replaceAll("\\p{M}", "");
+    }
+
+    public static String normalizeAnswerWithSmartSubstitution(String input) {
+        if (input == null) return "";
+        return input
+                .replace("ë", "e")
+                .replace("Ë", "E")
+                .replace("ç", "c")
+                .replace("Ç", "C")
+                .trim()
+                .toLowerCase();
     }
 }
